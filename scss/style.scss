@@ -1,0 +1,127 @@
+//========================Шрифти========================//
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+//========================Файли Sccs========================//
+@import "nullstyle";
+@import "limitation";
+//@import "mixins";
+//========================Змінні========================//
+$color-red: #ee4248;
+$color2-text: #30444e;
+
+body {
+	max-width: 100%;
+	font-family: "Roboto", sans-serif;
+}
+//======================================================//
+.btn {
+	background-color: $color-red;
+	color: #fff;
+	padding: 12px 32px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+//========================Header========================//
+.header {
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 50px;
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		min-height: 100px;
+	}
+	&__logo {
+	}
+
+	&__menu {
+		display: flex;
+	}
+}
+.menu {
+	&__list {
+		display: flex;
+	}
+	&__item-2 {
+		&:not(:last-child) {
+			margin-right: 24px;
+		}
+	}
+	&__item {
+		&:not(:last-child) {
+			margin-right: 50px;
+		}
+		.arrow {
+			position: relative;
+			top: 6px;
+			left: 8px;
+			cursor: pointer;
+		}
+	}
+
+	&__link {
+	}
+}
+.memu {
+	&__link {
+		color: rgba(31, 46, 53, 0.8);
+		font-size: 18px;
+		line-height: 21px;
+	}
+}
+
+.list {
+	&__menu-right {
+	}
+}
+
+//========================MAIN==========================//
+.main {
+	&__technology {
+	}
+}
+.technology {
+	&__container {
+		display: flex;
+		padding: 59px 0;
+	}
+
+	&__body {
+		margin-right: 17px;
+	}
+
+	&__image {
+	}
+}
+.container {
+}
+.body {
+	&__title {
+		color: #1f2e35;
+		font-size: 48px;
+		line-height: 133.69%;
+		font-weight: 700;
+		margin-bottom: 24px;
+		span {
+			font-weight: 700;
+			color: $color-red;
+		}
+	}
+
+	&__sub-title {
+		font-size: 20px;
+		line-height: 29px;
+		color: #30444e;
+		margin-bottom: 24px;
+	}
+
+	&__button {
+	}
+}
+
+//======================================================//
+//======================================================//
+
+//======================================================//
+//======================================================//
+//========================Footer========================//
